@@ -1,6 +1,6 @@
 import './App.css';
 
-function Header() {
+function Header(props) {
   return (
     <div className="navBar">
 
@@ -19,6 +19,8 @@ function Header() {
         
 
       </div>
+
+      {/* <h1>{this.props}</h1> */}
       
 
     </div>
