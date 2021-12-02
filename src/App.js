@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './Header.js'
 
-var pageTitle = 'projects'
+var pageTitle = 'poop'
 
 function App() {
   return (
     <div className="App">
-      <Header>{pageTitle}</Header>
+      <Header name={pageTitle}></Header>
     </div>
   );
 }

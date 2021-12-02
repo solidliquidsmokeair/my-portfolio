@@ -20,7 +20,7 @@ function Header(props) {
 
       </div>
 
-      {/* <h1>{this.props}</h1> */}
+      <h1>{props.name}</h1>
       
 
     </div>
